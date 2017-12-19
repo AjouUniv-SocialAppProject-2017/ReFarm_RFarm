@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.byoungeun_kim.exrefarm.RelativeShopFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:scaleType="centerCrop"
+           android:layout_marginTop="420dp"
+           android:src="@drawable/images"/>
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:scaleType="centerCrop"
+           android:layout_marginLeft="280dp"
+           android:layout_marginTop="10dp"
+           android:id="@+id/cloud1"
+           android:src="@drawable/cloud3"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:scaleType="centerCrop"
+           android:layout_marginLeft="20dp"
+           android:id="@+id/cloud2"
+           android:src="@drawable/cloud3"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:scaleType="centerCrop"
+           android:layout_marginTop="160dp"
+           android:layout_marginLeft="30dp"
+           android:id="@+id/cloud3"
+           android:src="@drawable/cloud3"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:scaleType="centerCrop"
+           android:layout_marginTop="140dp"
+           android:layout_marginLeft="320dp"
+           android:id="@+id/cloud4"
+           android:src="@drawable/cloud3"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/section1"
+           android:textSize="30dp"
+           android:text="경기도 - 남양주, 양평"
+           android:textStyle="bold"
+           android:layout_marginTop="50dp"
+           android:layout_centerHorizontal="true"
+
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/section2"
+           android:textSize="30dp"
+           android:text="강원도 - 홍천, 속초"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_below="@+id/section1"
+           android:layout_centerHorizontal="true"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/section3"
+           android:textSize="30dp"
+           android:text="충청도 - 공주"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_below="@+id/section2"
+           android:layout_centerHorizontal="true"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/section4"
+           android:textSize="30dp"
+           android:text="전라도 - 여수, 대전"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_below="@+id/section3"
+           android:layout_centerHorizontal="true"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/section5"
+           android:textSize="30dp"
+           android:text="경상도 - 대구, 부산"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_below="@+id/section4"
+           android:layout_centerHorizontal="true"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/section6"
+           android:textSize="30dp"
+           android:text="제주도 - 서귀포"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_below="@+id/section5"
+           android:layout_centerHorizontal="true"
+           />
+
+   </RelativeLayout>
+
+</FrameLayout>
