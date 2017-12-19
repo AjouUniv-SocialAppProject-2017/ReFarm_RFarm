@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.byoungeun_kim.exrefarm.ChatActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnFinish"
+        android:background="@drawable/cloud3"
+        />
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/my_recycler_view"
+    android:layout_below="@+id/btnFinish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/etText"
+    android:scrollbars="vertical"
+        />
+
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/etText"
+    android:layout_toLeftOf="@+id/btnSend"
+    android:layout_alignParentBottom="true"
+    />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="send"
+    android:id="@+id/btnSend"
+        android:background="@drawable/cloud3"
+    />
+
+
+
+
+</RelativeLayout>

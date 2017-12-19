@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEB887"
+    tools:context="com.example.byoungeun_kim.exrefarm.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/house"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="ReFarm"
+            android:id="@+id/tvHello"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#006400"
+            android:textSize="50sp"
+            android:textStyle="italic"
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvHello"
+            android:background="#ffffff"
+            android:hint="EMAIL"
+            android:layout_marginLeft="10dp"
+             />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:id="@+id/etPassword"
+            android:hint="PASSWORD"
+            android:background="#ffffff"
+            android:layout_below="@+id/etEmail"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            android:text="LOGIN"
+            android:layout_below="@+id/btnRegister"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancel"
+            android:text="CANCEL"
+            android:layout_below="@+id/btnLogin"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRegister"
+            android:text="REGISTER"
+            android:layout_below="@+id/etPassword"
+            android:layout_centerHorizontal="true"/>
+
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/pbLogin"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
